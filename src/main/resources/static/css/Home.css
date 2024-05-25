@@ -1,0 +1,126 @@
+#main{
+    margin: 0 50px;
+}
+
+#topSection{
+    display: flex;
+    margin-top: 100px;
+	justify-content: center;
+    gap: 40px;
+}
+
+/**/
+#reminderSection{
+    width: 400px;
+    height: 340px;
+    
+}
+
+#reminderSection .title{
+    font-size: 20px;
+    display: flex;
+}
+
+#reminderSection span{
+    width: 10px;
+    height: 25px;
+    background: #00A4EA;
+    margin-top: 3px;
+    margin-right: 4px;
+}
+
+#reminderSection .button{
+    width: 100px;
+    height: 30px;
+    background: #00A4EA;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+#reminderSection .reminder{
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+/**/
+#weeklyRecordSection{
+    width: 480px;
+    height: 340px;
+   
+}
+
+#weeklyRecordSection .title{
+    font-size: 20px;
+    display: flex;
+}
+
+#weeklyRecordSection span{
+    width: 10px;
+    height: 25px;
+    background: #00A4EA;
+    margin-top: 3px;
+    margin-right: 4px;
+}
+
+#weeklyRecordSection .button{
+    width: 100px;
+    height: 30px;
+    background: #00A4EA;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+#weeklyRecordSection .weeklyRecord{
+    width: 480px;
+    height: 300px;
+    border: 2px solid black;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+/**/
+
+#secondSection{
+	margin-top: 20px;
+}
+
+#monthlyRecordSection{
+    width: 100%;
+    height: 800px;
+    margin: auto 0;
+}
+
+#secondSection .title{
+    font-size: 20px;
+    display: flex;
+}
+
+#secondSection span{
+    width: 10px;
+    height: 25px;
+    background: #00A4EA;
+    margin-top: 3px;
+    margin-right: 4px;
+}
+
+#secondSection .button{
+    width: 100px;
+    height: 30px;
+    background: #00A4EA;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+#secondSection .record{
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    overflow-y: scroll;
+    background-color: white;
+}

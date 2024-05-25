@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.sidebar{
+    background-color: #2C2C2C;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 356px;
+    height: 100%;
+    margin-top: 68px;
+    top: 0;
+    left: -356px;
+}
+.sidebar .userData{
+    margin: 10px auto;
+    height: 200px;
+}
+.sidebar .userData span{
+    background-color: antiquewhite;
+    display: block;
+    height: 180px;
+}
+.sidebar .userData h2{
+    color: white;
+    margin: 10px;
+}
+.sidebar .menu {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+.sidebar a{
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}

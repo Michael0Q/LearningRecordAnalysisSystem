@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/Reset.css}">
+    <link rel="stylesheet" th:href="@{/css/Login.css}">
+ 	<script th:src="@{/js/jquery-3.7.0.min.js}"></script>
+<title>Learning.IO</title>
+</head>
+<body>
+<header class="header">
+    <h1>Learning.IO</h1>
+</header>
+<p th:text="${LoginFailed}"></p>
+<main class="login">
+    <form class="loginForm" th:object="${loginForm}" th:action="@{/lras/login}" method="post">
+        <label for="id">ID</label>
+        <input type="text" id="id" th:field="*{id}"><br>
+        <label for="pass">PASS</label>
+        <input type="password" id="pass" th:field="*{pass}">
+        <button class="loginButton">LOGIN</button>
+        <a href="">Signin...</a>
+    </form>
+</main>
+</body>
+</html>

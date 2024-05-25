@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" th:href="@{/css/Reset.css}">
+	<link rel="stylesheet" th:href="@{/css/Sidebar.css}">
+	<link rel="stylesheet" th:href="@{/css/Header.css}">
+	<link rel="stylesheet" th:href="@{/css/Recorder.css}">
+	<script th:src="@{/js/jquery-3.7.0.min.js}"></script>
+	<script th:src="@{/js/sidebar.js}"></script> 
+	<title>Learning.IO</title>
+</head>
+<body>
+<div th:replace="/parts/temp::header"></div>
+<div th:replace="/parts/temp::sidebar"></div>
+<form id="main" th:action="@{/recorder}" th:object="${RecorderForm}" method="post">
+	<div id="topickSection">
+		<p>
+			<span></span>
+			何を勉強しましたか？
+		</p>
+		<select></select>
+	</div>
+	<div id="dateSection">
+		<p>
+			<span></span>
+			日付と時間は？
+		</p>
+		<input type="date">
+		<input type="time">
+	</div>
+	<div id="remindSection">
+		<p>
+			<span></span>
+			復習の必要性は？
+		</p>
+		<input type="radio" name="remind" value="0">あり
+		<input type="radio" name="remind" value="1">なし
+		<br><textarea></textarea>
+	</div>
+	<button name="record">記録する</button>
+</form>
+</body>
+</html>

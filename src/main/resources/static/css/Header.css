@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.header{
+    background-color: #2C2C2C;
+    height: 68px; 
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.header .button{
+    margin: 20px
+}
+.header .button div{
+    width: 30px;
+    height: 4px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+.header h1{
+    color: white;
+    padding-top: 8px;
+    margin: 0 auto;
+}

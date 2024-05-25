@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+body{
+    font-family: "boldItalic";
+    font-size: 15px;
+}
+
+.header{
+    background-color: #2C2C2C;
+    height: 68px; 
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header h1{
+    color: white;
+    padding-top: 8px;
+    margin: 0 auto;
+}
+
+.login{
+    background-color: antiquewhite;
+    height: 700px;
+    padding-top: 30px;
+    width: 100%;
+    top: 0;
+}
+.login .loginForm{
+    margin: 200px auto;
+    width: 240px;
+    text-align: right;
+}
+.login .loginForm label{
+    margin-bottom:18px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.login .loginForm .loginButton{
+    background-color: #00A4EA;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 200px;
+    border-radius: 15px;
+}
+.login .loginForm a{
+    color: rgb(176, 177, 178);
+    margin-right: 70px;
+}

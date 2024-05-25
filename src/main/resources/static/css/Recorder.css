@@ -1,0 +1,76 @@
+#main{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+p{
+    font-size: 16px;
+}
+
+/**/
+#topickSection{
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#topickSection span{
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    background: rgb(168, 0, 0);
+}
+
+#topickSection select{
+    width: 220px;
+    height: 60px;
+    margin-left: 30px;
+}
+/**/
+#dateSection{
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#dateSection span{
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    background: rgb(6, 6, 180);
+}
+
+#dateSection input{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#remindSection{
+    width: 200px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+#remindSection span{
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    background: rgb(209, 209, 0);
+}
+
+#remindSection input{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+#remindSection textarea{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+button{
+	margin: 20px auto;
+	background: #00A4EA;
+    border-radius: 15px;
+}

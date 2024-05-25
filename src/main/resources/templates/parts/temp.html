@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<nav class="sidebar" th:fragment="sidebar">
+    <div class="userData">
+        <span>prof</span>
+        <h2>ユーザーネーム</h2>
+    </div>
+    <div class="menu">
+        <a href="">学習トピック編集</a>
+        <a href="">学習分析</a>
+        <a href="">アカウント情報</a>    
+    </div>
+</nav>
+
+<header class="header" th:fragment="header">
+    <div class="button">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    <h1>Learning.IO</h1>
+</header>
+</body>
+</html>
